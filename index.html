@@ -51,7 +51,7 @@ oninput="hitung()">
 0 Diamond
 </div>
 
-<p>Tarif: Rp20 = 1 Diamond</p>
+<p>Tarif: Tarif: Rp10.000 = 37.100 Diamond</p>
 
 </div>
 
@@ -61,7 +61,7 @@ function hitung(){
   Number(document.getElementById('uang').value);
 
   let diamond =
-  Math.floor(uang/20);
+  Math.floor(uang * 3.71);
 
   document.getElementById('hasil').innerHTML =
   diamond.toLocaleString('id-ID') + ' Diamond';
